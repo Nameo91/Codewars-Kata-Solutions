@@ -3,7 +3,8 @@
 A simple function to display the names of people that like an item
 This is a practice of TDD process through a KATA from Codewars
 
-## Description
+## Description
+
 The function takes an array containing the names of people that like an item and returns the display text
 
 Examples of Input and Output
