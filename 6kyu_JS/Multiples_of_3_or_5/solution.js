@@ -4,10 +4,11 @@ solution = (number) => {
   }
 
   const numbers = Array.from({ length: number - 1 }, (_, index) => index + 1);
-  let newNumbers = [];
-  numbers.forEach((number) => {
+  const newNumbers = numbers.map((number) => {
     if (number % 3 === 0 || number % 5 === 0) {
-      newNumbers.push(number);
+      return number;
+    } else {
+      return 0;
     }
   });
 
