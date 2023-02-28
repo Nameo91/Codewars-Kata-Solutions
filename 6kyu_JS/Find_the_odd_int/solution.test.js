@@ -5,4 +5,7 @@ describe("findOdd", () => {
     expect(findOdd([7])).toBe(7);
   });
 
+  test("should return 0", () => {
+    expect(findOdd([0])).toBe(0);
+  });
 });
