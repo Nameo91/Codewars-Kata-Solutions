@@ -1,17 +1,18 @@
-findOdd = (numbers) => {
+const findOdd = (A) => {
   let occurences = {};
   let oddInt;
   
-  for (let i=0; i < numbers.length; i++) {
-    if (occurences[numbers[i]]) {
-      occurences[numbers[i]] += 1 
+  // count occurences of each integer 
+  A.forEach((n) => {
+    if(occurences[n]) {
+      occurences[n] += 1;
     } else {
-      occurences[numbers[i]] = 1   
+      occurences[n] = 1;     
     }
-  }
+  });
   
   for (let key in occurences) {
-    if (occurences[key] % 2 === 1) {
+    if (occurences[key] % 2 !== 0) {
       oddInt = Number(key); 
     }
   }
