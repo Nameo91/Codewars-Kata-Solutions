@@ -22,5 +22,14 @@ Example Input | Output
 ## Reflection
 
 1. Further feature
+The features can be added for the situation when the array includes more than one integers that appear an odd number of times.
+
+The best solution on Codewars:
+
+```javascript
+const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
+```
+To understand the simple function, research more on the reduce method and XOR (^).
 
 2. My approach
+The description directs there is always only one integer that suits the condition. I started the test with an array containing one integer. So the first feature of the function is to return the number in an array. Then, I implemented for loop with a counter to count the number of occurrences of each integer. Later, it was refactored using the forEach loop to iterate over all elements in the given array. 
