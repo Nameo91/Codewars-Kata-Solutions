@@ -20,7 +20,9 @@ Examples of Input and Output
 ## Reflection
 
 1. Further features
+
    The function takes an array of upto 4 names and it should be able to return more than 4 names.
 
 2. My Approach
+
    I started with the simplest test passing an empty array in this problem. I can use switch statement as the function performs different actions based on different conditions to avoid a long nested if statement.

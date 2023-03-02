@@ -19,9 +19,11 @@ Examples Input | Output
 ## Reflection
 
 1. Further features
+
    Error message can be logged when argument is not a string or an empty array
 
 2. My Approach
+
    I decided to iterate the array of words by forEach loop but it can be done by map loop.
    I followd TDD process, testing the simplest one first.
    Things to improve: More practice on refactoring, getting familiar with in-built methods.
