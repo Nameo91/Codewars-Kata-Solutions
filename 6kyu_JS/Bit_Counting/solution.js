@@ -9,7 +9,7 @@ const countBits = (n) => {
   let count = 0;
   bits.forEach((bit) => {
     console.log(bit);
-    if (Number(bit) === 1) {
+    if (Number(bit) === 1) {      // two data types are different
       count++
     }
     return count;
