@@ -9,8 +9,8 @@ const countBits = (n) => {
   let count = 0;
   bits.forEach((bit) => {
     console.log(bit);
-    if (bit == 1) {
-      count += 1
+    if (Number(bit) === 1) {
+      count++
     }
     return count;
   });
