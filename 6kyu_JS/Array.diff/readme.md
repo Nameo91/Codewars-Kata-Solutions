@@ -19,7 +19,7 @@ arrayDiff([1,2,2,2,3],[2]) | [1,3]
 
 ## Reflection
 
-1. Further Approach 
+1. Further Feature 
 
 An error message can be added when there are strings in arrays. I assumed only arrays are given as inputs but any other cases can be considered. 
 
