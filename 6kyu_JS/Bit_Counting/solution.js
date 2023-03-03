@@ -12,7 +12,6 @@ const countBits = (n) => {
     if (Number(bit) === 1) {      // two data types are different
       count++
     }
-    return count;
   });
 
   return count;
