@@ -9,4 +9,12 @@ describe("isValidWalk", () => {
     expect(isValidWalk(['w', 's'])).toBe(false);
   });
 
+  test("should return false when the walk takes three minutes", () => {
+    expect(isValidWalk(['n', 'n', 's'])).toBe(false);
+  });
+
+  test("should return false when the walk returns to starting point in 10 movemnets", () => {
+    expect(isValidWalk(['n','s','n','s','n','s','n','s','n','s'])).toBe(true);
+  });
+
 })
