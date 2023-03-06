@@ -29,4 +29,7 @@ example input | output
 
 ## Reflection
 
+My first appoach was counting the movements of each direction and calculate the movements using if statement. I refactored if statement to switch statement as it has a consistent condition. I considered the oppsite sides as a pair to make the code simple rather than counting each letter.
+
+This function can be implemented by creating countfunction which takes each letter and return the length of the filtered array with the letter. Then, the comparision of opposite direction are same, it should return true. 
 
