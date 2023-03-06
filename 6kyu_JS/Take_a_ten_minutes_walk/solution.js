@@ -18,7 +18,7 @@ isValidWalk = (walk) => {
     }
   })
   
-  if(n - s === 0 && w - e === 0) {  // calculate movements of opposite direction
+  if(n - s === 0 && w - e === 0 && walk.length === 10) {  // calculate movements of opposite direction
     return true;
   } else {
     return false;

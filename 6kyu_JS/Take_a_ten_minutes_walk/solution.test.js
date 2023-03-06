@@ -37,7 +37,7 @@ describe("isValidWalk", () => {
     expect(isValidWalk(['w','e','n','s','w','e','n','s','w','e'])).toBe(true);
   });
 
-  // test("should return false for more than 10 movemnets", () => {
-  //   expect(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e'])).toBe(false);
-  // });
+  test("should return false for more than 10 movemnets", () => {
+    expect(isValidWalk(['w','e','w','e','w','e','w','e','w','e','w','e'])).toBe(false);
+  });
 })
