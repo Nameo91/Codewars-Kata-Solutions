@@ -1,28 +1,20 @@
 isValidWalk = (walk) => {
-  //counter of each letter
-  let n = 0;
-  let s = 0;
-  let w = 0;
-  let e = 0;
+
+  let ns = 0;  // counter of North and South
+  let we = 0;  // counter of West and East
+  let movements = walk.length;  // Total movements
 
   // iterate input array and icrement each counter
   walk.forEach(direction => {
-    if(direction === 'n') {
-      n++;;
-    } else if(direction === 's') {
-      s++;
-    } else if(direction === 'w') {
-      w++;
-    } else {
-      e++;
+    switch (direction) {
+      case 'n': ns++ ; break
+      case 's': ns-- ; break
+      case 'w': we++ ; break
+      case 'e': we-- ; break
     }
   })
   
-  if(n - s === 0 && w - e === 0 && walk.length === 10) {  // calculate movements of opposite direction
-    return true;
-  } else {
-    return false;
-  }
+  return ns === 0 && we === 0 && movements === 10  // only condition to be true
 }
 
 module.exports = isValidWalk;
