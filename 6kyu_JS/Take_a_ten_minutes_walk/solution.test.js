@@ -13,8 +13,11 @@ describe("isValidWalk", () => {
     expect(isValidWalk(['n', 'n', 's'])).toBe(false);
   });
 
-  test("should return false when the walk returns to starting point in 10 movemnets", () => {
+  test("should return true when the walk returns to starting point in 10 movemnets", () => {
     expect(isValidWalk(['n','s','n','s','n','s','n','s','n','s'])).toBe(true);
   });
 
+  test("should return true when the walk returns to starting point in 10 movemnets", () => {
+    expect(isValidWalk(['w','e','w','e','w','e','w','e','w','e'])).toBe(true);
+  });
 })

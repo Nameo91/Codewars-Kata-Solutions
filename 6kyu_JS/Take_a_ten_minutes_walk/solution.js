@@ -6,19 +6,19 @@ isValidWalk = (walk) => {
   let e = 0;
 
   // iterate input array and icrement each counter
-  walk.forEach(e => {
-    if(e === 'n') {
+  walk.forEach(direction => {
+    if(direction === 'n') {
       n++;;
-    } else if(e === 's') {
+    } else if(direction === 's') {
       s++;
-    } else if(e === 'w') {
+    } else if(direction === 'w') {
       w++;
     } else {
       e++;
     }
   })
-
-  if(n - s === 0 && w - e === 0) {
+  
+  if(n - s === 0 && w - e === 0) {  // calculate movements of opposite direction
     return true;
   } else {
     return false;
