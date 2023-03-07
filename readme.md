@@ -10,3 +10,4 @@ Codewars Kata solutions to pratice TDD process and conslidate what I have learne
 4. [Find the odd int](6kyu_JS/Find_the_odd_int)
 5. [Array.diff](6kyu_JS/Array.diff)
 6. [Bit_Counting](6kyu_JS/Bit_Counting)
+7. [Replace_alphabet_position](6kyu_JS/Replace_alphabet_position)
