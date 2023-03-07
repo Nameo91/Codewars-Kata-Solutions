@@ -12,4 +12,8 @@ describe("alphbetPosition", () => {
   test("should return 2 with a string with single letter c", () => {
     expect(alphabetPosition("c")).toBe("3");
   });
+
+  test("should convert a string with two letters", () => {
+    expect(alphabetPosition("ab")).toBe("1 2");
+  });
 })
