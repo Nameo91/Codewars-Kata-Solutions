@@ -9,11 +9,11 @@ alphabetPosition = (text) => {
     let char = text[i];
     // find the index of each char in the string of alphabets
     if(alphabets.includes(char)) {
-      numbers += alphabets.indexOf(char) + 1;
+      numbers += (alphabets.indexOf(char) + 1) + ' '; // add space next to each number
     }
   }
 
-  return numbers;
+  return numbers.trim();
 }
 
 module.exports = alphabetPosition;
