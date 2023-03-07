@@ -22,3 +22,5 @@ alphabetPosition("The sunset sets at twelve o' clock.") | "20 8 5 19 21 14 19 5 
 ```
 
 ## Reflection
+
+To access each number of alphabet, I created a string to use index of each letter. It also can be done by using UniCode of letters. Javascript has a builtin methond, charCodeAt(letter) which returns the Unicode value of character at a specified index in string. More tests should be carried out for multiple punctuation marks or uppercase. 
