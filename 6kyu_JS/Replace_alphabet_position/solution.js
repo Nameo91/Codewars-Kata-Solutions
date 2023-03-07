@@ -1,6 +1,6 @@
 alphabetPosition = (text) => {
   // string of alphabets
-  let alphabets = "abcdefghijklmnopqrxtuvwxyz";
+  let alphabets = "abcdefghijklmnopqrstuvwxyz";
 
   // store converted number
   let numbers = "";  
