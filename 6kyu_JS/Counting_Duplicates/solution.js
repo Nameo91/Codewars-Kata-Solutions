@@ -1,5 +1,6 @@
 duplicateCount = (text) => {
   let duplicates = [];
+
   // iterate over string to access each element
   for (let i = 0; i < text.length; i++) {
     let char = text[i]; //current character
@@ -10,7 +11,10 @@ duplicateCount = (text) => {
       duplicates.push(char);  // collect all the duplicates
     }
   }
-  return duplicates.length;
+  
+  //remove all duplicates
+  const unique_duplicates = [...new Set(duplicates)];
+  return unique_duplicates.length;
 }
 
 module.exports = duplicateCount;
