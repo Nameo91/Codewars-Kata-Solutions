@@ -5,5 +5,7 @@ describe("duplicateCount", () => {
     expect(duplicateCount("")).toBe(0);
   });
 
-
+  test("should return 0 with no duplicates", () => {
+    expect(duplicateCount("abcde")).toBe(0);
+  });
 })
