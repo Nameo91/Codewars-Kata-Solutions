@@ -1,10 +1,11 @@
 duplicateCount = (text) => {
   let duplicates = [];
+  let new_text = text.toLowerCase(); //case insensitivity
 
   // iterate over string to access each element
-  for (let i = 0; i < text.length; i++) {
-    let char = text[i]; //current character
-    let string = text.slice(i+1); //rest of the string
+  for (let i = 0; i < new_text.length; i++) {
+    let char = new_text[i]; //current character
+    let string = new_text.slice(i+1); //rest of the string
  
     //check if the char includes in the rest of the string
     if(string.includes(char)) {
