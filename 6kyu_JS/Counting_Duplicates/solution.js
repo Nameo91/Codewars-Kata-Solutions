@@ -1,6 +1,6 @@
 duplicateCount = (text) => {
   let duplicates = [];
-  let new_text = text.toLowerCase(); //case insensitivity
+  const new_text = text.toLowerCase(); //case insensitivity
 
   // iterate over string to access each element
   for (let i = 0; i < new_text.length; i++) {
@@ -15,7 +15,9 @@ duplicateCount = (text) => {
   
   //remove all duplicates
   const unique_duplicates = [...new Set(duplicates)];
-  return unique_duplicates.length;
+  const count = unique_duplicates.length;
+
+  return count;
 }
 
 module.exports = duplicateCount;
