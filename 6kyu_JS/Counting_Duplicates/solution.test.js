@@ -28,4 +28,12 @@ describe("duplicateCount", () => {
   test("should return 2 as it is case insensitive", () => {
     expect(duplicateCount("Indivisibilities")).toBe(2);
   });
+
+  test("should return 2 as it is case insensitive", () => {
+    expect(duplicateCount("aA11")).toBe(2);
+  });
+
+  test("should return 2 as it is case insensitive", () => {
+    expect(duplicateCount("ABBA")).toBe(2);
+  });
 })
