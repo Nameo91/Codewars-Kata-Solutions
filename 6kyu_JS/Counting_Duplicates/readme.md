@@ -25,10 +25,3 @@ Example Input | Output
 ## Reflection
 
 Practiced on refactoring to make code readable and clean. Added more comments and set variables name to be distinguished. Regex (/([^])\1+/g) can be used with match method to find any duplicates in the string. 
-
-short version of solution 
-```javascript
-duplicateCount = (text) => {
-  return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
-}
-```
