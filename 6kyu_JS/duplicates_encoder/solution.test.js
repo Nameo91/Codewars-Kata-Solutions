@@ -8,4 +8,8 @@ describe("duplicateEncode", () => {
   test("should return encoded string without duplicates", () => {
     expect(duplicateEncode('ab')).toBe('((');
   })
+
+  test("should return encoded string without duplicates", () => {
+    expect(duplicateEncode('din')).toBe('(((');
+  })
 })
