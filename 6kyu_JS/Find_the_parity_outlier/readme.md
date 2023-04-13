@@ -5,7 +5,8 @@ It detects a single odd or even integer.
 ## Description  
 
 The array is given with integers and either entirely contains odd integers or even integers except for a single integer N.
-The array has a length of at least 3 and could be very large. 
+The array always has a length of at least 3 and could be very large. 
+The array always contains an outlier.
 It takes the array as an argument and returns this outlier, N.
 
 ```
