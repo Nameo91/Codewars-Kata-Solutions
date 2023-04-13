@@ -4,10 +4,10 @@ findOutlier = (integers) => {
   
   // divide each number by two and push to each array
   for(const n of integers) {
-    if(n%2 === 1) {
-      odd.push(n);
-    } else {
+    if(n%2 === 0) {
       even.push(n);
+    } else {
+      odd.push(n);
     }
   }
 
