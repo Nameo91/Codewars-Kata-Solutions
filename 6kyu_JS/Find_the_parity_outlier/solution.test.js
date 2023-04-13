@@ -2,6 +2,10 @@ const findOutlier = require('./solution');
 
 describe("findOutlier", () => {
   it("returns one odd outlier", () => {
-    expect(findOutlier([2, 4, 0, 100, 4, 11, 2602, 36])).toBe(11);
+    expect(findOutlier([2, 4, 5])).toBe(5);
+  })
+
+  it("returns one even outlier", () => {
+    expect(findOutlier([1,2,3])).toBe(2);
   })
 })
