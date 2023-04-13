@@ -18,3 +18,5 @@ Example Input | Output
 ```
 
 ## Reflection
+
+For the simple solution, the function is refactored using filter method instead of for loop to separate odd numbers and even numbers. Multiple tests are carried out to make sure the funciton executes the outlier correctly with both positive and negative integers. Error messages can be added when the given array is emply or not containing one outlier.  
