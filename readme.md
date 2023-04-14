@@ -14,3 +14,4 @@ Codewars Kata solutions to pratice TDD process and conslidate what I have learne
 8. [Take a ten minutes walk](6kyu_JS/Take_a_ten_minutes_walk)
 9. [Counting Duplicates](6kyu_JS/Counting_Duplicates)
 10. [Find the parity outlier](6kyu_JS/Find_the_parity_outlier/)
+11. [Unique in Order](6kyu_JS/Unique_In_Order/)
