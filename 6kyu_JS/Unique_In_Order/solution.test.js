@@ -20,4 +20,16 @@ describe("uniqueInOrder", () => {
   it("returns the array of each letter from a string", () => {
     expect(uniqueInOrder('ABC')).toEqual(['A', 'B', 'C']);
   })
+
+  it("returns the array of each letter after removing any duplicates", () => {
+    expect(uniqueInOrder(['A', 'A', 'B', 'C'])).toEqual(['A', 'B', 'C']);
+  })
+
+  it("returns the array of numbers after removing any duplicates", () => {
+    expect(uniqueInOrder([1, 1, 2, 2, 3, 3, 4, 4, 5, 5])).toEqual([1, 2, 3, 4, 5]);
+  })
+
+  it("returns the array of numbers after removing any duplicates", () => {
+    expect(uniqueInOrder('AAAaaaBBBbbbCCCccc')).toEqual(['A', 'a', 'B', 'b', 'C', 'c']);
+  })
 })
