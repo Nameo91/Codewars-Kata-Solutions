@@ -3,7 +3,9 @@ const uniqueInOrder = (iterable) => {
     iterable = iterable.split('');
   }
 
-  let uniqueArray = iterable.filter((item, i, array) => array.indexOf(item) === i);
+  let uniqueArray = iterable.filter((item, i) => 
+    i === 0 || item !== iterable[i-1]  //Compare the current value with the previous value
+  ); 
   return uniqueArray;
 }
 
