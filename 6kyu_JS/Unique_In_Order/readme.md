@@ -6,6 +6,7 @@ It finds duplicate letters in a given value.
 
 The function takes a sequence as an argument and returns a list of items without any elements with the same value nex to each other.
 The returned items should be preserved the original order of elements. 
+The input must be either a string or an array. 
 
 ```
 Example Input | Output
