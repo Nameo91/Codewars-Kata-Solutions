@@ -21,3 +21,16 @@ Example Input | Output
 ```
 
 ## Refelction
+
+I approached the function with map function to iterate over the array of strings. Replace function can be used to find any match of hyphen or underscore and replace it by the letter followed by them. This can be done as below.
+
+```JS
+toCamelCase = (str) => {
+  //Regular expression to get the following letter of hyphen or underscore
+  let regExp=/[-_]\w/ig;
+  
+  //replace any hyphens or underscores by the letter next to them change it to Uppercase
+  return str.replace(regExp,(letter) => {
+    return letter.charAt(1).toUpperCase();
+  });
+}
