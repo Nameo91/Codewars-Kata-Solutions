@@ -1,5 +1,5 @@
 toCamelCase = (str) => {
-  return str;
+  return str
 }
 
 module.exports = toCamelCase;
