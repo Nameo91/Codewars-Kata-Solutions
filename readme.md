@@ -15,4 +15,6 @@ Codewars Kata solutions to pratice TDD process and conslidate what I have learne
 9. [Counting Duplicates](6kyu_JS/Counting_Duplicates)
 10. [Find the parity outlier](6kyu_JS/Find_the_parity_outlier)
 11. [Unique in Order](6kyu_JS/Unique_In_Order)
-12. [Convert String to Camelcase](6kyu_JS/Convert_String_to_Camel_case)
+12. [Convert String to Camelcase](6kyu_JS/
+Convert_String_to_Camel_case)
+13. [Detect Pangram](6kyu_JS/Detect_Pangram)
